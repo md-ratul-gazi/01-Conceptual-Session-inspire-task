@@ -38,7 +38,19 @@ label {
   background: transparent;
   font-size: 1.2rem;
 }
-
+a{
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size:2rem;
+  box-shadow: 0.1px 0.1px 5px 5px rgb(210, 224, 224);
+  border-radius: 2rem;
+  transition: 0.1s;
+}
+a:hover{
+   border: 5px solid #804fbc;
+}
 /* Reset code here */
 /* Nav bar design start here */
 .nav-bar {
@@ -169,10 +181,34 @@ li:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 .demo-images {
   width: 40rem;
   border-radius: 2rem;
 }
 /* Demos section ends here */
+
+/* Video instructions starts here */
+.video-ins{
+  background-color: #fff8ec;
+  padding: 5rem;
+}
+.video-ins > h1{
+  font-size:2.5rem;
+  text-align: center;
+  color:#804fbc;
+  padding-bottom:2.5rem;
+}
+.all-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+iframe{
+  border-radius: 2em;
+  width:50rem;
+  height: 25rem;
+}
+/* Video instructions starts here */
