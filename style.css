@@ -38,18 +38,18 @@ label {
   background: transparent;
   font-size: 1.2rem;
 }
-a{
+a {
   text-align: center;
   text-decoration: none;
-  color:black;
-  font-weight:bold;
-  font-size:2rem;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
   box-shadow: 0.1px 0.1px 5px 5px rgb(210, 224, 224);
   border-radius: 2rem;
   transition: 0.1s;
 }
-a:hover{
-   border: 5px solid #804fbc;
+a:hover {
+  border: 5px solid #804fbc;
 }
 /* Reset code here */
 /* Nav bar design start here */
@@ -94,7 +94,7 @@ li:hover {
 .b-s-1 {
   position: absolute;
   left: 5rem;
-  width: 20rem;
+  width: 15rem;
   border-radius: 5rem;
   opacity: 0.8;
 }
@@ -102,34 +102,34 @@ li:hover {
   position: absolute;
   top: 10rem;
   right: 5rem;
-  width: 30rem;
+  width: 20rem;
   border-radius: 5rem;
   opacity: 0.6;
 }
 .b-s-3 {
   position: absolute;
-  top: 50rem;
+  top: 35rem;
   right: 10rem;
-  width: 25rem;
+  width: 18rem;
   border-radius: 5rem;
   opacity: 0.7;
 }
 .typed {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   z-index: 10;
 }
 .banner-para {
-  font-size: 10rem;
+  font-size: 6rem;
   text-align: center;
   color: #804fbc;
   opacity: 0.2;
   position: absolute;
-  top: 46%;
+  top: 41%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .banner > h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   z-index: 10;
 }
 .student-login {
@@ -168,7 +168,7 @@ li:hover {
   padding: 5rem;
 }
 .demos-para {
-  font-size: 30rem;
+  font-size: 25rem;
   text-align: center;
   color: #804fbc;
   opacity: 0.2;
@@ -190,25 +190,61 @@ li:hover {
 /* Demos section ends here */
 
 /* Video instructions starts here */
-.video-ins{
+.video-ins {
   background-color: #fff8ec;
   padding: 5rem;
 }
-.video-ins > h1{
-  font-size:2.5rem;
+.video-ins > h1 {
+  font-size: 2.5rem;
   text-align: center;
-  color:#804fbc;
-  padding-bottom:2.5rem;
+  color: #804fbc;
+  padding-bottom: 2.5rem;
 }
-.all-video{
+.all-video {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:2rem;
+  gap: 2rem;
 }
-iframe{
+iframe {
   border-radius: 2em;
-  width:50rem;
+  width: 40rem;
   height: 25rem;
 }
 /* Video instructions starts here */
+
+/* Footer section starts here */
+footer {
+  display: flex;
+  background-color: rgb(17, 16, 16);
+  /* width: 100%; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 4rem;
+  gap: 2rem;
+}
+footer > h3 {
+  font-size: 2rem;
+}
+.footer-input {
+  background-color: rgb(123, 89, 89);
+  margin-right: -5px;
+  padding: 5px;
+  padding-left: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.footer-submit {
+  border: none;
+  background-color: #ff0000;
+ padding: 5px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+small{
+  font-size: 15px;
+}
+/* Footer section ends here */
